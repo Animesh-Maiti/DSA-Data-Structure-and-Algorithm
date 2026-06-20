@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int b2d(int num){
+int d2b(int num){
     int ans= 0;
     int pow=1, temp=num;
     while(temp>0){
@@ -17,7 +17,7 @@ int b2d(int num){
 int main(){
 
     for(int i=1;i<11;i++){
-        cout<<b2d(i)<<endl;
+        cout<<d2b(i)<<endl;
     }
 
     return 0;
